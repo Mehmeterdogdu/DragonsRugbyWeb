@@ -65,9 +65,76 @@
       </div>
     </nav>
   </header>
+  <div id="boşluk" class="container-fluid sayfa-bg">
+    <div class="row boşluk">
+      <div class="col" style="background-color:darkred ;"></div>
+    </div>
+  </div>
+  <section id="team-player">
+    <div class="table-responsive-xl sayfa-bg">
+    <table class="table table-dark table-striped p-0">
+      <thead class="p-0">
+        <tr>
+          <th scope="col">Numara</th>
+          <th scope="col">İsim ve Soyisim</th>
+          <th scope="col">Mevki</th>
+          <th scope="col">Yaş</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">10</th>
+          <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Tolga Oğuz
+          </button></td>
+          <td>Trainer</td>
+          <td>hatırlamıyorum 28 di galiba</td>
+        </tr>
+        <tr>
+          <th scope="row">11</th>
+          <td>Mehmet Erdoğdu</td>
+          <td>Back</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <th scope="row">12</th>
+          <td>mahmud </td>
+          <td>Back</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <th scope="row">15</th>
+          <td>BURAK ERCAN</td>
+          <td>MANAGER</td>
+          <td>hatırlamıyorum bunada 28</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  </section>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
   <!--kendi bölümüm-->
   <footer>
-    <div class="container-fluid bg-danger text-center py-4 lead text-light">
+    <div class="container-fluid sayfa-bg text-center py-4 lead text-light">
       NO &copy; 2022 Mehmet Erdoğdu
     </div>
   </footer>
