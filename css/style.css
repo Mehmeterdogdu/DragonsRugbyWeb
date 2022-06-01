@@ -15,10 +15,14 @@
 {
     background-color: black !important;
 }
+.navbar-bg{
+    background-color: white !important;
+}
 
 .boşluk{
     height: 5px
 }
+
 
 /* resimli arka plan */
 .dark-bg {
@@ -30,6 +34,8 @@
 #hero .container{
     height: 50vh;
 }
+
+
 
 .tam-ekran-resim
 {
