@@ -26,7 +26,7 @@
 
 /* resimli arka plan */
 .dark-bg {
-    background-image:  linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .9)), url('../img/img1.avif');
+    background-image:  linear-gradient(rgba(0,0,0, .7),rgba(0,0,0, .9)), url('../img/index.jpg');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
